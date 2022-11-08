@@ -1,80 +1,12 @@
 
-
-
-
-.btn-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 23px;
-    padding-left: 0;
-    padding-right: 0;
-    border: none;
-    background-color: transparent;
-    color: #888888;
-    cursor: pointer;
-    transition: .3s ease;
+#container{
+    width: 1860px;
 }
-    .btn-menu:focus {
-        outline: none;
-    }
 
-    .btn-menu__text {
-        margin-left: 10px;
-        font-size: 1.125rem;
-        font-weight: 700;
-        line-height: 1;
-    }
-
-    .btn-menu__bars {
-        display: block;
-        position: relative;
-        width: 24px;
-        height: 1px;
-        /* background-color: $primary; */
-
-
-        &:before, &:after {
-            content: "";
-            display: block;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            /* background-color: $primary; */
-            transition: .3s;
-        }
-
-        &:before {
-            transform: translate(0, -11px);
-        }
-
-        &:after {
-            transform: translate(0, 11px);
-        }
-    }
-
-    .menu-open  .btn-menu {
-
-        .btn-menu__bars {
-            background-color: transparent;
-
-            .btn-menu:before {
-                transform: rotate(45deg);
-            }
-
-            .btn-menu:after {
-                transform: rotate(-45deg);
-            }
-        }
-    }
-
-
- /* HEADER */
+/* HEADER */
 
     header{
-        height: 148px;
-        background-color: #202020;
+        height: 84px;
         display: flex;
     }
 
@@ -86,6 +18,28 @@
         color: #ffff;
         margin-top: 22px;
         margin-left: 62px;
+    }
+
+    address > a:first-child{
+        margin-left: 48.75px;
+    }
+
+    address > a:last-child{
+        margin-left: 32.83px;
+    }
+
+    address > a:first-child::before{
+        content: url(images/Telephone.svg);
+        width: 16.5px;
+        height: 16.5px;
+        margin-right: 13.83px;
+    }
+
+    address > a:last-child::before{
+        content: url(images/Mail.svg);
+        width: 16.5px;
+        height: 16.5px;
+        margin-right: 13.83px;
     }
 
     header > address{
@@ -101,3 +55,129 @@
         color: #ffff;
     }
 
+
+/* Présentation */
+
+
+    section:first-child{
+        height: 1087px;
+        background-image: url(images/Backgroundsection1.svg);
+        background-color: #232323;
+        background-repeat: no-repeat;
+    }
+
+    #designer{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #ffff;
+        margin: 70px 0 0 393px;
+    }
+
+    h2{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 101px;
+        letter-spacing: -3px;
+        color: #FFFFFF;
+        margin: 33px 0 0 388px;
+    }
+
+    h3{
+        font-family: 'Inter';
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 101px;
+        color: #F87F28;
+        margin: 0 0 16px 390px;
+        width: 242px;
+    }
+
+    #developpement{
+        width:441px;
+        height:72px;
+    }
+
+    #directeur{
+        margin-top: 24px;
+        margin-bottom: 60px;
+    }
+
+    #developpement, #directeur{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-left: 393px;
+    }
+
+    #boutonsection1{
+        display: flex;
+    }
+
+    .btn{
+        width: 123px;
+        height: 47px;
+        left: 390px;
+        top: 608px;
+        background: #BB2323;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+        text-decoration: none;
+        color: #fff;
+        border: none;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn:first-child{
+        margin: 0 23px 0 390px;
+    }
+
+    #containersection1{
+        display: flex;
+    }
+
+    #imageolivier{
+        margin: 64px 0 0 104px;
+    }
+
+    #images_clients{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    #clients > p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #BFBFBF;
+        margin: 205px 0 0 836px;
+        width: 218px;
+        height: 31px;
+    }
+
+
+
+
+    @media screen and (max-width: 375px){
+
+        body{
+            background-color: #202020;
+        }
+    }
