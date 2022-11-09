@@ -157,6 +157,16 @@
         justify-content: center;
     }
 
+    #logo1 > p, #logo2 > p, #logo3 > p{
+        margin: 0;
+    }
+
+    #logo1, #logo2, #logo3{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
+
     #clients > p{
         font-family: 'Roboto';
         font-style: normal;
@@ -175,9 +185,108 @@
 
 
 
-    @media screen and (max-width: 375px){
+@media screen and (max-width: 375px){
 
-        body{
-            background-color: #202020;
+        #body{
+            width: 375px;
         }
+    
+        #container{
+            width: 100%;
+        }
+
+        section:first-child{
+            background-image: none;
+            background-color: #232323;
+            height: 956px;
+        }
+
+        header > address{
+            display: none;
+        }
+
+        #designer{
+            margin-top: 49.42px;
+            margin-left: 29.27px;
+        }
+
+        #imageolivier{
+            display: none;
+        }
+
+        h2{
+            margin: 0 0 0 24.27px;
+            font-size: 40px;
+        }
+
+        h3{
+            margin-left: 23.8px;
+            letter-spacing: -1px;
+        }
+        
+        p#developpement, p#directeur{
+            margin-left: 29px;
+        }
+
+        p#developpement{
+            margin-bottom: 0;
+            width: 302px;
+            height: 93px;
+            font-size: 16px;
+        }
+
+        p#directeur{
+            margin: 25px 0 32.31px 29px;
+        }
+
+        #boutonsection1{
+            margin-left: 24.27px;
+            column-gap: 23px;
+        }
+
+        .btn:first-child {
+            margin: 0;
+        }
+
+        #images_clients{
+            display: block;
+        }
+        
+        #clients > p{
+            margin: 67.3px 0 0 -42.5px;
+        }
+
+        #logo1{
+            margin-left: 51.99px;
+            column-gap: 62.88px;
+        }
+
+        #logo2{
+            margin-left: 20px;
+        }
+
+        #logo3{
+            margin-left: 20px;
+        }
+
+        #clients > #images_clients > #logo1 > p:first-child > img{
+            width: 110.78px;
+            height: 36.96px;
+        }
+
+        #clients > #images_clients > #logo1 > p:last-child > img{
+            width: 82.92px;
+            height: 76.19px;
+        }
+
+        #clients > #images_clients > #logo2 > p:first-child > img{
+            Width: 135.84px;
+            Height: 83.97px;
+        }
+
+        #clients > #images_clients > #logo2 > p:last-child > img{
+            Width: 152.49px;
+            Height: 85.77px;
+        }
+
     }
