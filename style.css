@@ -1,9 +1,13 @@
 
 #container{
-    width: 1860px;
+    width: 100%;
 }
 
 /* HEADER */
+
+    #1_presentation {
+        width: 375px;
+    }
 
     header{
         height: 84px;
@@ -17,7 +21,14 @@
         line-height: 36px;
         color: #ffff;
         margin-top: 22px;
-        margin-left: 62px;
+        margin-left: 29px;
+    }
+
+    .orange1 {
+        width: 73px;
+        height: 3px;
+        background-color: #F87F28;
+        margin-left: 29px;
     }
 
     address > a:first-child{
@@ -47,6 +58,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
+        padding-top: 30px;
     }
 
     address a:link{
@@ -64,6 +76,7 @@
         background-image: url(images/Backgroundsection1.svg);
         background-color: #232323;
         background-repeat: no-repeat;
+        width: 1860px;
     }
 
     #designer{
@@ -77,7 +90,11 @@
         margin: 70px 0 0 393px;
     }
 
-    h2{
+    .orange1 {
+        display: none;
+    }
+
+    #textsection1 > h2{
         font-family: 'Inter';
         font-weight: 400;
         font-size: 72px;
@@ -85,9 +102,10 @@
         letter-spacing: -3px;
         color: #FFFFFF;
         margin: 33px 0 0 388px;
+        width: 626px;
     }
 
-    h3{
+    #textsection1 > h3{
         font-family: 'Inter';
         font-weight: bold;
         font-size: 72px;
@@ -147,7 +165,7 @@
     }
 
     #imageolivier{
-        margin: 64px 0 0 104px;
+        margin: 64px 0 0 81px;
     }
 
     #images_clients{
@@ -177,55 +195,68 @@
         letter-spacing: 3px;
         text-transform: uppercase;
         color: #BFBFBF;
-        margin: 205px 0 0 836px;
+        margin: 132px 0 0 836px;
         width: 218px;
         height: 31px;
+        padding-bottom: 0;
+        padding-top: 70px;
     }
 
 
     /*  Section 2 */
 
+    #back2 {
+        background-image: url(images/FOND2.svg);
+    }
+
     #divsection2{
         display: flex;
         margin-top: 133px;
         margin-bottom: 216px;
+        color: #FFFFFF;
+        
     }
 
     section:nth-child(2){
-        background-color: black;
+        background-color: #202020;
+        
         height: 819px;
+        width: 1860px;
+        background-image: none;
     }
 
-    h5{
+    #skills {
         font-family: 'Inter';   
         font-weight: 600;
         font-size: 36px;
         line-height: 60px;
         text-align: center;
         text-transform: capitalize;
-        color: #FFFFFF;
         margin: 0;
         padding-top: 152px;
     }
 
-    .section2para{
+    .orange2 {
+        display: none;
+    }
+
+    .section2para1{
         font-family: 'Inter';
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         color: #FFFFFF;
+        text-align: center;
+        width: 429px;
+        margin-left: 710px;
+       
     }
 
-    .section2para:nth-child(2){
+    .section2para2:nth-child(2){
         text-align: center;
         width: 340px;
         margin-left: 756px;
         margin-top: 50px;
-    }
-
-    .img{
-        height: 52px;
-        width: 52px;
     }
 
     h6{
@@ -245,6 +276,13 @@
         margin-left: 115px;
     }
 
+    #s2img{
+        padding: 20px 20px 20px 20px;
+        background-color: #fff;
+        border-radius: 18px;
+
+    }
+
     #section2c{
         margin-left: 112px;
     }
@@ -253,21 +291,1025 @@
         margin-left: 97px;
     }
 
-    #section2a > p.section2para:nth-child(3){
+    #section2a > p.section2para2:nth-child(3){
         width: 172px;
+        font-family: 'Inter-Regular', sans-serif;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 24px;
     }
 
-    #section2b > p.section2para:nth-child(3){
+    #section2b > p.section2para3:nth-child(3){
         width: 176px;
+        font-family: 'Inter-Regular', sans-serif;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 24px;
     }
 
-    #section2c > p.section2para:nth-child(3){
+    #section2c > p.section2para4:nth-child(3){
         width: 172px;
+        font-family: 'Inter-Regular', sans-serif;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 24px;
     }
 
-    #section2d > p.section2para:nth-child(3){
+    #section2d > p.section2para5:nth-child(3){
         width: 172px;
+        font-family: 'Inter-Regular', sans-serif;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 24px;
     }
+
+
+
+
+    /* Section 3 */
+
+    section:nth-child(3){
+        background-image: url('images/background3.svg');
+        background-color: #202020;
+        background-repeat: no-repeat;
+        height: 1084px;
+        width: 1860px;
+    }
+
+    #portfoliotext{
+        margin-left: 342px;
+        margin-right: 77px;
+        
+    }
+
+    #sectionportfolio{
+        display: flex;
+        padding-top: 108px;
+
+    }
+
+    #orange{
+        width: 73px;
+        height: 3px;
+        background-color:#F87F28;
+        margin-top: 0;
+        margin-bottom: 32.21px;
+    }
+
+    #portfoliotext, h2{
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 60px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+
+    p.ParaPortfolio{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 296px;
+    }
+
+    #imagesportfolio{
+        display: grid;
+        grid-template-columns: 227px 100px 100px 227px;
+        grid-template-rows: 266px 266px 266px;
+        column-gap: 25px;
+        row-gap: 1.5625rem;
+    }
+
+    #imagesportfolio > p{
+        margin:0;
+    }
+
+    #one{
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+
+    #two{
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    #three{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #four{
+        grid-column: 2/5;
+        grid-row: 2;
+    }
+
+    #five{
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+
+    #six{
+        grid-column: 3/5;
+        grid-row: 3;
+    }
+
+    .Responsive{
+        display: none;
+    }
+    
+    /* Section 4 EXPERIENCE */
+    /* PARTIE GAUCHE */
+
+
+
+    #bloctextgaucheexperience{
+        margin-left: 390px;
+        margin-top: 28px;
+        margin-bottom: 53px;
+        margin-right: 124px;
+    }
+
+    .paragaucheexperience{
+        margin-bottom: 29px;
+    }
+
+    #bloctextgaucheexperience > h7{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+
+    .paragaucheexperience{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 242px;
+    height: 120px;
+    margin-top: 53px;
+    }
+
+    #boutonsection2, #boutonsection2 .btn{
+    width: 194px;
+    margin: 0;
+    }
+
+     /* PARTIE DROITE  */
+
+    #h8ligne1droite, #h8ligne2droite, #h8ligne3droite{
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+    }
+
+    #Titre8{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    #Titre8Gras{
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .paradroite{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+
+    #ligne1droite{
+        margin-bottom: 115px;
+    }
+
+    #ligne2droite{
+        margin-bottom: 98px;
+    }
+
+    #ligne1droite .paradroite{
+        width: 324px;
+        margin-left: 177px;
+    }
+
+    #ligne2droite .paradroite{
+        width: 328px;
+        margin-left: 113px;
+    }
+
+    #ligne3droite .paradroite{
+        width: 302px;
+        margin-left: 157px;
+    }
+
+    #ligne1droite, #ligne2droite, #ligne3droite{
+        display: flex;
+    }
+
+    #section4experience{
+        display: flex;
+        height: 732px;
+        background-color: #202020;
+        width: 1860px;
+        padding-top: 20px;
+    }
+
+    #ligne1droite.img{
+        margin-right: 29px;
+    }
+
+    #Titre8{
+        margin-bottom: 13px;
+    }
+
+    #boutonsection2responsive{
+        display: none;
+    }
+
+
+    #section_competences{
+
+    }
+
+
+
+
+
+
+
+
+
+
+    #Section6_Temoignages{
+        background-color: #202020;
+        height: 687px;
+        background-image: url(images/bgd6.svg);
+        padding-top: 150px;
+        background-repeat: no-repeat;
+    }
+    
+    #TitreTemoignages{
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 200px 0 90px 721px;
+        padding: 149px 0 0 0;
+    }
+    
+    #bloctextTemoignages{
+        display: flex;
+        margin-top: 0px;
+    }
+    
+    #IconImageTemoignages{
+        margin:0 40px 0 512px;
+    }
+    
+    #ParaSectionTemoignage{
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin-bottom: 96px;
+        width: 677px;
+        margin-top: 85px;
+    }
+    
+    #NomPrenom{
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+    
+    #Fonctions{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- Fifth Section --> */
+
+#fifth-section-left {
+    width: 1860px;
+    height: 620px;
+    background-color: #202020;
+    color: #FFFF;
+
+}
+
+#left-side {
+    display: flex;
+    margin-left: 395px;
+}
+
+#left1 {
+    padding-top: 150px;
+}
+ 
+.part1, .part2, .part3, .part4{
+    display: flex;
+    padding-left: 50px;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6 {
+    display: flex;
+    background-color: #2c2c2c;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.color1, .color3, .color5, .part4 {
+    margin-right: 23px;
+}
+
+.color1 {
+    width: 299px;
+}
+
+.color1 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.color1 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-right: 100px;
+    margin-top: 21px;
+}
+
+.color1 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.color2 {
+    width: 350px;
+}
+
+.color2 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+.color2 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-right: 160px;
+    margin-top: 21px;
+}
+
+.color2 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.color3 {
+    width: 226px;
+}
+
+.color3 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.color3 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-right: 6px;
+    padding-top: 21px;
+    width: 71.96px;
+    height: 24px;
+    margin: 0;
+    
+}
+
+.color3 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.color4 {
+    width: 301px;
+}
+
+.color4 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.color4 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-right: 77px;
+    padding-top: 21px;
+    width: 71.96px;
+    height: 24px;
+    margin: 0;
+}
+
+.color4 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.color5 {
+    width: 287px;
+}
+
+.color5 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.color5 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-right: 65px;
+    padding-top: 21px;
+    width: 71.96px;
+    height: 24px;
+    margin: 0;
+}
+
+.color5 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.color6 {
+    width: 287px;
+}
+
+.color6 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.color6 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-right: 65px;
+    padding-top: 21px;
+    width: 71.96px;
+    height: 24px;
+    margin: 0;
+}
+
+.color6 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+.part4 {
+    width: 482px;
+    display: flex;
+    background-color: #2c2c2c;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    padding: 0;
+    margin-left: 49px;
+}
+
+.part4 p:first-child {
+    margin-left: 22.7px;
+    margin-right: 31.98px;
+}
+
+.part4 p:nth-child(2) {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-right: 260px;
+    padding-top: 21px;
+    width: 71.96px;
+    height: 24px;
+    margin: 0;
+}
+
+.part4 p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    background-color: #F87F28;
+    color: #232323;
+    width: 55px;
+    height: 22px;
+    border-radius: 30px;
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 5px;
+}
+
+#right-side {
+    margin-left: 85px;
+}
+
+#fifth-section-right {
+    padding-top: 150px;
+}
+
+#right-side h2 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    margin-left: 0;
+}
+
+#orange3 {
+    width: 73px;
+    height: 3px;
+    background-color:#F87F28;
+    margin-top: 0;
+    margin-bottom: 32.21px;
+    margin: 0;
+}
+
+#right-side p:last-child {
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 24px;
+    width: 327px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+/* SECTION 7 */
+/* SECTION ACTU */
+
+#DivTitresection7{
+    margin-top: 100px;
+}
+
+#Section7_Actu{
+    background-image: url(images/bgd7.svg);
+    background-color: #202020;
+    display: flex;
+    height:679px;
+    width: 1860px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Titresection7{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 383px;
+    margin-right: 78.66px;
+    padding-top: 108px;
+}
+
+.DateSection7{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F87F28;
+}
+
+.Para1Section7{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.Para2Section7{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#bloc1section7droit, #bloc2section7droit{
+    margin-bottom: 40px ;
+}
+
+#bloc3section7droit{
+    margin-bottom: 142px;
+}
+
+#Blocdroitetextesection7{
+    margin-top: 130px;
+}
+
+/* SECTION 8 */
+/* CONTACT ET FORMULAIRE */
+
+#section8total{
+    background-image: url(images/background6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #202020;
+    display: flex;
+    background-size: 1857px 903px;
+    width: 1860px;
+}
+
+
+#section8_contact > h3{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #BFBFBF;
+    padding-top: 224px;
+    margin-left: 388px;
+    margin-bottom:27px;
+    margin-top: 59px;
+}
+
+#Adresse, #Mail, #Tel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #F87F28;
+}
+
+#section8_Tel, #section8_Mail, #section8_adresse{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#blocadresse, #blocmail, #bloctelephone{
+    display: flex;
+}
+
+#imgmail, #imgadresse, #imgtelephone{
+    margin-right: 24px ;
+    margin-left: 388px;
+}
+
+#Adresse > p, #Mail > p, #Tel > p{
+    margin: 0;
+}
+
+#section8_adresse > p{
+    margin:0;
+    width: 288px;
+}
+
+#section8_Mail > p{
+    margin: 0;
+}
+
+#section8_Tel > p{
+    margin: 0;
+}
+
+#section8_contact{
+    margin-right: 154px;
+}
+
+#section8_adresse > p{
+    margin-bottom: 57px;
+}
+
+#section8_Mail > p{
+    margin-bottom: 54px;
+}
+
+
+
+/* Formulaire */
+
+h4{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+#formulairep1ligne1, #formulairep1ligne2{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+p#formulairep1ligne1{
+    margin-bottom: 0;
+    margin-top:12px;
+}
+
+p#formulairep1ligne2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#formulairep2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 522px;
+    margin-top: 12px;
+    margin-bottom: 31px;
+}
+
+button#buttonSection8{
+    background: #BB2323;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 11px 32px 12px 32px;
+    margin-top: 28px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    margin-bottom: 202px;
+}
+
+
+/* Formulaire carrés */
+
+#cadres{
+    margin-bottom: 31px;
+    position: relative;
+}
+
+#cadres2{
+    margin-bottom: 28px;
+    position: relative;
+
+}
+
+.btn4{
+    width: 165px;
+    height: 47px;
+    background: #bb2323;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    color:#fff;
+    cursor: pointer;
+    border: none;
+    grid-column: 1;
+    grid-row: 5;
+    margin: 9px 172px 12px 0px;
+
+}
+
+.btn4:hover{
+    width: 149px;
+    height: 47px;
+    background: #202020;
+    border:2px solid #F87F28;
+    color: #F87F28;
+}
+
+#nom1{
+    width: 253px;
+    height: 50px;
+    border-radius: 4px;
+    background: none;
+    border: 0.0625rem solid #828282 ;
+    color: #fff;
+}
+
+
+#mail1{
+    width: 251px;
+    height: 50px;
+    border-radius: 4px;
+    background: none;
+    border: 0.0625rem solid #828282 ;
+    color: #fff;
+    margin-left: 36px;
+}
+
+#message1{
+    width: 550px;
+    height: 155px;
+    border-radius: 4px;
+    background: none;
+    border: 0.0625rem solid #828282 ;
+    color: #fff;
+
+}
+
+#cadre1{
+    position: absolute;
+    background-color: #232323;
+    padding: 0 0.625rem;
+    top: -15px;
+    left: 12px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#cadre2{
+    position: absolute;
+    background-color: #232323;
+    padding: 0 0.625rem;
+    top: -15px;
+    left: 309px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+#cadre3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    position: absolute;
+    background-color: #232323;
+    padding: 0 0.625rem;
+    top: -15px;
+    left: 12px;
+    color: #fff;
+}
+
+#section8_formulaire{
+    padding-top: 224px;
+    padding-left: 35px;
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
 
 
 
@@ -285,8 +1327,8 @@
 
         section:first-child{
             background-image: none;
-            background-color: #232323;
-            height: 956px;
+            background-color: #202020;
+            width: 375px;
         }
 
         header > address{
@@ -303,14 +1345,16 @@
         }
 
         h2{
-            margin: 0 0 0 24.27px;
+            margin: 0 0 0 0;
             font-size: 40px;
         }
 
-        h3{
+        #textsection1 > h3{
             margin-left: 23.8px;
             letter-spacing: -1px;
         }
+
+        
         
         p#developpement, p#directeur{
             margin-left: 29px;
@@ -355,6 +1399,7 @@
 
         #logo3{
             margin-left: 20px;
+            padding-top: 20px;
         }
 
         #clients > #images_clients > #logo1 > p:first-child > img{
@@ -379,6 +1424,8 @@
 
         /* Section 2 Responsive */
 
+        
+
         h5{
             padding-top: 72.36px;
             width: 247.45px;
@@ -393,12 +1440,16 @@
         .section2para:nth-child(2){
             width: 306px;
             text-align: left;
-            margin: 0 0 0 36.7px;
+            margin-left: 29px;
+            margin: 0 0 0 0;
         }
 
         section:nth-child(2){
-            background-color: black;
+            background-color: #202020;
             height: auto;
+            background-image: none;
+            width: 375px;
+            padding-left: 29px;
         }
 
         #section2a{
@@ -431,15 +1482,300 @@
     
         #section2c > p.section2para:nth-child(3){
             width: 255px;
+
         }
     
         #section2d > p.section2para:nth-child(3){
             width: 257px;
+            margin: 0;
         }
 
 
         /* Section 3 Responsive */
 
+        section:nth-child(3){
+            background-image: none;
+            background-color: #202020;
+            background-repeat: no-repeat;
+            width: 375px;
+
+        }
 
 
+        #sectionportfolio{
+            height: auto;
+            display: block;
+            width: 375px;
+            padding-top: 50px;
+            margin-top: 0;
+        }
+
+        #imagesportfolio{
+            display: grid;
+            grid-template-columns: 375px;
+            grid-template-rows: 6(1fr);
+        }           
+
+        .Desktop{
+            display: none;
+        }
+
+        .Responsive{
+            visibility: visible;
+        }
+
+        #oner{
+            grid-column: 1;
+            grid-row: 1;
+        }
+    
+        #twor{
+            grid-column: 1;
+            grid-row: 2;
+        }
+    
+        #threer{
+            grid-column: 1;
+            grid-row: 3;
+        }
+    
+        #fourr{
+            grid-column:1;
+            grid-row: 4;
+        }
+    
+        #fiver{
+            grid-column: 1;
+            grid-row: 5;
+        }
+
+        #sixr{
+            grid-column: 1;
+            grid-row: 6;
+        }
+
+        #portfoliotext{
+            margin-left: 38px;
+        }
+
+        .ParaPortfolio{
+            margin:0;
+        }
+
+        #orange{
+            width: 73px;
+            height: 3px;
+            background-color:#F87F28;
+            margin-top: 0;
+            margin-bottom: 26px;
+        }
+
+        #boutonsection2responsive{
+            visibility: visible;
+        }
+
+
+
+
+
+
+
+        #bloctextgaucheexperience{
+            margin-left: 0;
+        }
+
+        #section4experience{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        #ligne1droite .paradroite, #ligne2droite .paradroite, #ligne3droite .paradroite{
+            display: none;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Section Temoignages */
+    
+    #TitreTemoignages{
+        margin-left: 38px;
     }
+
+    #bloctextTemoignages{
+        margin-top: 53px;
+    }
+
+    #IconImageTemoignages{
+        display: none;
+    }
+
+    #Fonctions{
+        width: 157px;
+    }
+
+    #NomPrenom{
+        width: 131px;
+    }
+
+    #paraetsignature{
+        max-width: 370px;
+        margin-left: 38px;
+    }
+
+    #ParaSectionTemoignage{
+        width: 300px;
+    }
+
+    #Section6_Temoignages{
+        height: 606px;
+        background-image: none;
+    }
+
+
+
+
+
+/* <!-- Fifth Section --> */
+
+#fifth-section-left {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+            #Section7_Actu{
+                width: 300px;
+            }
+            
+            #Titresection7{
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            
+            #Section7_Actu{
+                display: block;
+            }
+            
+            .DateSection7{
+                margin:0;
+            }
+            
+            .Para1Section7{
+                width: 300px;
+                margin-top:9.32px;
+                margin-bottom:10px;
+            }
+            
+            #bloc1section7droit > .Para2Section7{
+                width: 208px ;
+                height: 120px ;
+            }
+        
+            /* SECTION 8 */
+           /* CONTACT ET FORMULAIRE */
+        
+            #section8total{
+                display: block;
+                margin-left: 30px;
+                margin-right: 35px;
+                background-image: none;
+            }
+        
+            #section8_contact > h3{
+                margin: 0;
+                padding-top: 60px;
+            }
+        
+            #imgadresse{
+                margin: 0;
+            }
+        
+            #imgmail{
+                margin: 0;
+            }
+        
+            #imgtelephone{
+                margin: 0;
+            }
+            #blocadresse{
+                margin-top: 20px;
+            }
+            #adresseligne2, #mailligne2, #telephoneligne2 {
+                margin-left: 24px;
+            }
+            #section8_adresse > p {
+                font-size: 1rem;
+                width: 185px;
+            }
+            #section8_Mail > p{
+                font-size: 1rem;
+            }
+            #section8_Tel > p{
+                width: 176px;
+                font-size: 1rem;
+            }
+        
+            #section8_formulaire > h4{
+                display: none;
+            }
+        
+            #formulaireligne1et2{
+                margin-top: 42px;
+            }
+        
+            #formulairep1ligne2{
+                width: 237px;
+            }
+        
+            #formulairep2{
+                width: 282px;
+            }
+            #cadres label{
+                display: block;
+        
+            }
+        
+            #cadre2{
+                top: 62px;
+                left: 15px;
+            }
+        
+            #nom1{
+                width: 300px;
+            }
+        
+            #mail1{
+                margin-left: 0;
+                margin-top: 20px;
+                width: 300px;
+            }
+        
+           #message1{
+            width: 300px;
+           }
+        
+           #section8_formulaire{
+            padding-top: 0;
+            padding-left:0;
+        }
+        
+}
